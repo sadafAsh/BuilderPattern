@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.pattern.builder.ChickenBurgerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-15T17:47:52" hostname="DESKTOP-H3C67DB" time="0.003">
+  <properties/>
+  <testcase name="testToGetPriceChickenBurger()" classname="com.soj.pattern.builder.ChickenBurgerTest" time="0.001"/>
+  <testcase name="testToGetNameOfChickenBurger()" classname="com.soj.pattern.builder.ChickenBurgerTest" time="0.001"/>
+  <testcase name="testToGetPackagingChickenBurger()" classname="com.soj.pattern.builder.ChickenBurgerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.pattern.builder.VegBurgerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-15T17:47:53" hostname="DESKTOP-H3C67DB" time="0.001">
+  <properties/>
+  <testcase name="testToGetPriceVegBurger()" classname="com.soj.pattern.builder.VegBurgerTest" time="0.0"/>
+  <testcase name="testToGetNameOfVegBurger()" classname="com.soj.pattern.builder.VegBurgerTest" time="0.0"/>
+  <testcase name="testToGetPackagingVegBurger()" classname="com.soj.pattern.builder.VegBurgerTest" time="0.0"/>
+  <system-out><![CDATA[DEBUG [Test worker] 2022-02-15T17:47:53,592  (line ) Packing : Wrapper 
+DEBUG [Test worker] 2022-02-15T17:47:53,593  (line ) Price : 25.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

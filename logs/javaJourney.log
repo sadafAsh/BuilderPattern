@@ -1,0 +1,3 @@
+DEBUG [Test worker] 2022-02-15T17:47:53,589  (line ) Item : Veg Burger 
+DEBUG [Test worker] 2022-02-15T17:47:53,592  (line ) Packing : Wrapper 
+DEBUG [Test worker] 2022-02-15T17:47:53,593  (line ) Price : 25.0

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.pattern.builder.WrapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-15T17:47:53" hostname="DESKTOP-H3C67DB" time="0.0">
+  <properties/>
+  <testcase name="testToPackTheWrapper()" classname="com.soj.pattern.builder.WrapperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
