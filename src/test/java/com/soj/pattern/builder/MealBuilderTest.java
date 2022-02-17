@@ -31,7 +31,3 @@ class MealBuilderTest {
         Assertions.assertTrue(nonVegBurger.size() >= 1);
     }
 }
-//gradle sonarqube
-//        -Dsonar.projectKey=BuilderPattern
-//        -Dsonar.host.url=http://localhost:9000
-//        -Dsonar.login=8934b50c504b3affd56434a98fd991a3c0837b17

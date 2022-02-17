@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2b12065-e41d-4a28-b84a-5cb90d99d9f1" name="Default Changelist" comment="" />
+    <list default="true" id="e2b12065-e41d-4a28-b84a-5cb90d99d9f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sonar/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/sonar/report-task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/javaJourney.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/javaJourney.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/soj/pattern/builder/MealBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soj/pattern/builder/MealBuilderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,9 +66,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="258ypUx1hvFppe0SM9KhSoT8Fvx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -65,9 +84,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DepedencyInversionPrinciple" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -90,6 +110,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.BuilderPattern [sonarqube]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soj.pattern.builder.Main" />
+      <module name="BuilderPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soj.pattern.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuilderPattern [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,33 +201,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MealTest.testToGetListOfItems" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.soj.pattern.builder.MealTest.testToGetListOfItems&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.BuilderPattern [sonarqube]" />
         <item itemvalue="Gradle.BuilderPattern [build]" />
         <item itemvalue="Gradle.MealBuilderTest.prepareNonVegMeal" />
         <item itemvalue="Gradle.MealBuilderTest.testToPrepareVegMeal" />
-        <item itemvalue="Gradle.MealTest.testToGetListOfItems" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +234,19 @@
       <option name="presentableId" value="Default" />
       <updated>1644923190702</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1644947555088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644947555089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="21" key="#Project_Structure" timestamp="1644923240826">
@@ -232,26 +257,34 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="159" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1368.720@0.0.1368.720" timestamp="1644926326381" />
+    <state x="351" y="0" key="CommitChangelistDialog2" timestamp="1644947554781">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="351" y="0" key="CommitChangelistDialog2/0.0.1368.720@0.0.1368.720" timestamp="1644947554781" />
     <state width="418" height="466" key="DebuggerActiveHint" timestamp="1644930555883">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state width="418" height="466" key="DebuggerActiveHint/0.0.1368.720@0.0.1368.720" timestamp="1644930555883" />
-    <state width="1325" height="178" key="GridCell.Tab.0.bottom" timestamp="1644947539380">
+    <state x="464" y="117" key="FileChooserDialogImpl" timestamp="1645047650889">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="178" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1644947539380" />
-    <state width="1325" height="178" key="GridCell.Tab.0.center" timestamp="1644947539380">
+    <state x="464" y="117" key="FileChooserDialogImpl/0.0.1368.720@0.0.1368.720" timestamp="1645047650889" />
+    <state width="1325" height="178" key="GridCell.Tab.0.bottom" timestamp="1644947765580">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="178" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1644947539380" />
-    <state width="1325" height="178" key="GridCell.Tab.0.left" timestamp="1644947539380">
+    <state width="1325" height="178" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1644947765580" />
+    <state width="1325" height="178" key="GridCell.Tab.0.center" timestamp="1644947765580">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="178" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1644947539380" />
-    <state width="1325" height="178" key="GridCell.Tab.0.right" timestamp="1644947539380">
+    <state width="1325" height="178" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1644947765580" />
+    <state width="1325" height="178" key="GridCell.Tab.0.left" timestamp="1644947765580">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="1325" height="178" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1644947539380" />
+    <state width="1325" height="178" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1644947765580" />
+    <state width="1325" height="178" key="GridCell.Tab.0.right" timestamp="1644947765580">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="178" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1644947765580" />
     <state width="641" height="212" key="GridCell.Tab.1.bottom" timestamp="1644938940910">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
@@ -268,14 +301,26 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state width="641" height="212" key="GridCell.Tab.1.right/0.0.1368.720@0.0.1368.720" timestamp="1644938940910" />
+    <state x="276" y="95" key="Vcs.Push.Dialog.v2" timestamp="1644947566575">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="276" y="95" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1644947566575" />
     <state x="455" y="92" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1644941609528">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="455" y="92" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1368.720@0.0.1368.720" timestamp="1644941609528" />
-    <state x="340" y="160" width="672" height="677" key="run.anything.popup" timestamp="1644947269882">
+    <state x="399" y="163" key="git4idea.merge.GitPullDialog" timestamp="1644947602044">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state x="340" y="160" width="672" height="677" key="run.anything.popup/0.0.1368.720@0.0.1368.720" timestamp="1644947269882" />
+    <state x="399" y="163" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1644947602044" />
+    <state x="66" y="0" key="new project wizard" timestamp="1645010451777">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="66" y="0" key="new project wizard/0.0.1368.720@0.0.1368.720" timestamp="1645010451777" />
+    <state x="340" y="160" width="672" height="677" key="run.anything.popup" timestamp="1644947735000">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="340" y="160" width="672" height="677" key="run.anything.popup/0.0.1368.720@0.0.1368.720" timestamp="1644947735000" />
     <state x="347" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1644946898225">
       <screen x="0" y="0" width="1368" height="720" />
     </state>

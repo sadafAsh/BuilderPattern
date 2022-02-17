@@ -1,3 +1,18 @@
-DEBUG [Test worker] 2022-02-15T17:47:53,589  (line ) Item : Veg Burger 
-DEBUG [Test worker] 2022-02-15T17:47:53,592  (line ) Packing : Wrapper 
-DEBUG [Test worker] 2022-02-15T17:47:53,593  (line ) Price : 25.0
+DEBUG [main] 2022-02-15T17:53:14,421  (line ) Veg Meal
+DEBUG [main] 2022-02-15T17:53:14,424  (line ) Item : Veg Burger 
+DEBUG [main] 2022-02-15T17:53:14,424  (line ) Packing : Wrapper 
+DEBUG [main] 2022-02-15T17:53:14,425  (line ) Price : 25.0
+DEBUG [main] 2022-02-15T17:53:14,425  (line ) Item : Coke 
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Packing : Bottle 
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Price : 20.0
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Total Cost : 45.0
+ INFO [main] 2022-02-15T17:53:14,426  (line ) 
+
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) NonVeg Meal
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Item : Chicken Burger 
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Packing : Wrapper 
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Price : 30.0
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Item : Pepsi 
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Packing : Bottle 
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Price : 25.5
+DEBUG [main] 2022-02-15T17:53:14,426  (line ) Total Cost : 55.5

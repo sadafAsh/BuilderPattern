@@ -2,5 +2,5 @@ projectKey=BuilderPattern
 serverUrl=http://localhost:9000
 serverVersion=9.2.4.50792
 dashboardUrl=http://localhost:9000/dashboard?id=BuilderPattern
-ceTaskId=AX7-g3gL4LEldIC64M0n
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AX7-g3gL4LEldIC64M0n
+ceTaskId=AX7-hpPA4LEldIC64M0o
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX7-hpPA4LEldIC64M0o
