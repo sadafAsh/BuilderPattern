@@ -1,22 +1,28 @@
 # BuilderPattern
+      
+      
        Builder Pattern is the creational design pattern.It states that ,seperate the construction
 of a complex object from its representation so that the same construction create a different 
 representations. 
-       In this project, it may be the restaurant meal has  a burger and a coldDrink.Burger 
-could be either veg burger or chicken burger and will be packed in wrapper.Cold drink could
-be either pepsi or coke packed in a bottle.
-       Item is the interface representing food items such as cold drinks and burgers is the 
-concrete classes which implement the item interface.Packing is the interface representing the 
-packing of foods,wrapper and bottle is the concrete classes which implementing the packing 
-interface as burger would be packed in wrapper and cold drik would be packed in bottle. 
-Meal is a class having List of Item and a MealBuilder class having different types of meals.
-Main will use MealBuilder to build a meal.     
+     
+       In this project, it is a restaurant meal has  a burger and a coldDrink."Burger" class
+inherit "VegBurger" and "ChickenBurger" and will be packed in "Wrapper"."ColdDrink" inherit
+ "Pepsi" or "Coke" packed in a "Bottle".
+      "ColdDrinks" and "Burgers" implement the  "Item" interface.
+       "Wrapper" and "Bottle" is the concrete classes which implement the "Packing" interface.
+        "Meal" is a concrete class having List of items and a "MealBuilder" class having different
+types of meals."Main" will use "MealBuilder" to build a meal.     
 
 
 JunitTest:
-        There is JUnit Test also present for all Builder Pattern and test coverage are 100%
-  successful by jacoco reports.
+       The  Junit Test is done of all the entities in Builder pattern project and test coverage 
+is 100% successful in jacoco report.
+
        
+  SONARQUBE :
+          In sonarqube,reliability ,security , securityReview and maintainability is A and 
+the code coverage is 100%.    
+ 
   SONARQUBE 
   
   gradle command to publish code to sonarqube
